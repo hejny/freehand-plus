@@ -13,7 +13,7 @@ export const DASHPATTERNS: { [key: string]: { icon: string_url_image; dasharray:
 declareModule(
     makeAttributeModule<string>({
         manifest: {
-            name: '@collboard-templates/dashpattern-attribute',
+            name: '@hejny/dashpattern-attribute',
             version,
             description,
             contributors,

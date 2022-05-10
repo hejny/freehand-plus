@@ -1,3 +1,3 @@
 import './DashpatternAttribute.tsx';
-import './FreehandWithDashpatternArt';
-import './FreehandWithDashpatternTool';
+import './FreehandPlusArt';
+import './FreehandPlusTool';
