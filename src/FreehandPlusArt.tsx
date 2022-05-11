@@ -3,7 +3,7 @@ import { IVectorData, Vector } from 'xyzt';
 import { contributors, description, license, repository, version } from '../package.json';
 import { DASHPATTERNS } from './DashpatternAttribute';
 
-export const SVG_PADDING = 10;
+export const SVG_PADDING = 0; /* <- TODO; !!! Remove */
 export const IS_NEAR_DISTANCE = 20;
 
 export class FreehandPlusArt extends Abstract2dArt {
@@ -103,7 +103,22 @@ export class FreehandPlusArt extends Abstract2dArt {
                     width={this.maxX - this.minX + 2 * SVG_PADDING}
                     height={this.maxY - this.minY + 2 * SVG_PADDING}
                     xmlns="http://www.w3.org/2000/svg"
+                    style={{ overflow: 'visible' }}
                 >
+                    <defs>
+                        {/* @see http://thenewcode.com/1068/Making-Arrows-in-SVG */}
+                        <marker
+                            id="arrowhead"
+                            markerWidth="10"
+                            markerHeight="7"
+                            refX="0"
+                            refY="3.5"
+                            orient="auto"
+                            fill={this.color}
+                        >
+                            <polygon points="0 0, 10 3.5, 0 7" style={{ fill: this.color }} />
+                        </marker>
+                    </defs>
                     <g>
                         <path
                             d={this.svgpath}
@@ -117,6 +132,7 @@ export class FreehandPlusArt extends Abstract2dArt {
                             strokeDasharray={DASHPATTERNS[this.dashpattern].dasharray
                                 .map((length) => length * this.weight)
                                 .join(' ')}
+                            markerEnd="url(#arrowhead)"
                         />
                     </g>
                 </svg>
