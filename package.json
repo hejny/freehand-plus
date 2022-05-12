@@ -1,27 +1,27 @@
 {
-    "name": "@hejny/freehand-plus",
-    "version": "0.4.1",
-    "description": "Freehand with extras like dashed line or capped endings for Collboard.com created via @collboard/modules-sdk.",
-    "license": "SEE LICENSE IN LICENSE",
-    "contributors": [
-        "Pavol Hejný <pavol.hejny@collboard.com> (https://collboard.com/-/about/team)"
-    ],
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/hejny/freehand-plus"
-    },
-    "private": false,
-    "scripts": {
-        "start": "colldev develop",
-        "test": "colldev test",
-        "lint": "tslint -p tsconfig.json",
-        "preversion": "npm run lint && npm test",
-        "postversion": "git push && git push --tags"
-    },
-    "devDependencies": {
-        "@collboard/modules-sdk": "20.1.100",
-        "tslint": "6.1.3",
-        "xyzt": "4.7.0"
-    },
-    "dependencies": {}
+  "name": "@hejny/freehand-plus",
+  "version": "0.4.1",
+  "description": "Freehand with extras like dashed line or capped endings for Collboard.com created via @collboard/modules-sdk.",
+  "license": "SEE LICENSE IN LICENSE",
+  "contributors": [
+    "Pavol Hejný <pavol.hejny@collboard.com> (https://collboard.com/-/about/team)"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hejny/freehand-plus"
+  },
+  "private": false,
+  "scripts": {
+    "start": "colldev develop",
+    "test": "colldev test",
+    "lint": "tslint -p tsconfig.json",
+    "preversion": "npm run lint && npm test",
+    "postversion": "git push && git push --tags"
+  },
+  "devDependencies": {
+    "@collboard/modules-sdk": "20.1.100",
+    "tslint": "6.1.3",
+    "xyzt": "4.7.0"
+  },
+  "dependencies": {}
 }
