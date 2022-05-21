@@ -7,7 +7,7 @@ import { FreehandAnimatedArt } from './freehand-animated-art-module';
 declareModule(
     makeIconModuleOnModule({
         manifest: {
-            name: '@hejny/freehand-plus-tool',
+            name: '@hejny/freehand-animated-tool',
             version,
             description,
             contributors,
