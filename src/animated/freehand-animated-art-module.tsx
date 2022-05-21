@@ -111,10 +111,10 @@ export class FreehandAnimatedArt extends Abstract2dArt {
 
                           @keyframes ${scope}-animation {
                             from {
-                              stroke-dashoffset: 0;
+                              stroke-dashoffset: 1000;
                             }
                             to {
-                              stroke-dashoffset: 1000;
+                              stroke-dashoffset: 0;
                             }
                           }
                         `}
