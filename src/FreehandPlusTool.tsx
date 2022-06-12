@@ -76,11 +76,11 @@ declareModule(
 
                             registerAdditionalSubscription(
                                 touch.frames.subscribe({
-                                    next: (touchFrame) => {
-                                        artInProcess.path.push(collSpace.pickPoint(touchFrame.position).point);
+                                    async next(touchFrame) {
+                                        artInProcess.path.push((await collSpace.pickPoint(touchFrame.position)).point);
                                         operation.update(artInProcess);
                                     },
-                                    complete: () => {
+                                    complete() {
                                         operation.persist();
                                     },
                                 }),
