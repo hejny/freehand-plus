@@ -5,10 +5,10 @@
 
 
 [![License of ✒️ Freehand++ for Collboard](https://img.shields.io/github/license/hejny/freehand-plus.svg?style=flat)](https://github.com/hejny/freehand-plus/blob/main/LICENSE)
+[![lint](https://github.com/hejny/freehand-plus/actions/workflows/lint.yml/badge.svg)](https://github.com/hejny/freehand-plus/actions/workflows/lint.yml)
 [![test](https://github.com/hejny/freehand-plus/actions/workflows/test.yml/badge.svg)](https://github.com/hejny/freehand-plus/actions/workflows/test.yml)
 [![Known Vulnerabilities](https://snyk.io/test/github/hejny/freehand-plus/badge.svg)](https://snyk.io/test/github/hejny/freehand-plus)
 [![Issues](https://img.shields.io/github/issues/hejny/freehand-plus.svg?style=flat)](https://github.com/hejny/freehand-plus/issues)
-<!--[![lint](https://github.com/hejny/freehand-plus/actions/workflows/lint.yml/badge.svg)](https://github.com/hejny/freehand-plus/actions/workflows/lint.yml)-->
 
 <!--/Badges-->
 
