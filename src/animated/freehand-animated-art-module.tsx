@@ -1,10 +1,10 @@
 import {
-    Abstract2dArt,
-    classNames,
-    declareModule,
-    makeArtModule,
-    randomJavascriptName,
-    React,
+  Abstract2dArt,
+  classNames,
+  declareModule,
+  makeArtModule,
+  randomJavascriptName,
+  React
 } from '@collboard/modules-sdk';
 import { IVectorData, Vector } from 'xyzt';
 import { contributors, description, license, repository, version } from '../../package.json';
