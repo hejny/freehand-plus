@@ -9,7 +9,7 @@ import {
 import { IVectorData, Vector } from 'xyzt';
 import { contributors, description, license, repository, version } from '../../package.json';
 
-export const SVG_PADDING = 0; /* <- TODO; TODO: !!! Remove */
+export const SVG_PADDING = 0; /* <- TODO; !!! Remove */
 export const IS_NEAR_DISTANCE = 20;
 
 export class FreehandAnimatedArt extends Abstract2dArt {

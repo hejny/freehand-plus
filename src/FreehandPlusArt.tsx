@@ -3,7 +3,7 @@ import { IVectorData, Vector } from 'xyzt';
 import { contributors, description, license, repository, version } from '../package.json';
 import { DASHPATTERNS } from './DashpatternAttribute';
 
-export const SVG_PADDING = 0; /* <- TODO; TODO: !!! Remove */
+export const SVG_PADDING = 0; /* <- TODO; !!! Remove */
 export const IS_NEAR_DISTANCE = 20;
 
 export class FreehandPlusArt extends Abstract2dArt {
