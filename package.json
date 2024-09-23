@@ -2,7 +2,7 @@
     "name": "@hejny/freehand-plus",
     "version": "0.6.195",
     "description": "Freehand with extras like dashed line or capped endings for Collboard.com",
-    "license": "SEE LICENSE IN LICENSE",
+    "license": "Apache-2.0",
     "contributors": [
         "Pavol Hejný <pavol.hejny@collboard.com> (https://collboard.com/-/about/team)"
     ],
