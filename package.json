@@ -1,6 +1,6 @@
 {
     "name": "@hejny/freehand-plus",
-    "version": "0.6.245",
+    "version": "0.6.246",
     "description": "Freehand with extras like dashed line or capped endings for Collboard.com",
     "license": "Apache-2.0",
     "contributors": [
